@@ -6,7 +6,7 @@ import screens.DashboardScreen;
 public class AddAnItemInCart extends BaseTest {
 
     @Test
-    public void AddAnItemInCart() {
+    public void addAnItemInCart() {
         DashboardScreen dashboardScreen = new DashboardScreen(driver);
 
         dashboardScreen.notificationAlert()
