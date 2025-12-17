@@ -68,6 +68,17 @@ public class BaseScreen {
         return element.getText();
     }
 
+    // Display Element
+    protected boolean isElementPresent(WebElement element, int timeoutInSeconds) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+            wait.until(driver -> element.isDisplayed());
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
     // Scroll
     protected void scrollUntilVisible(By locator, int maxScrollCount, Direction direction) {
         int attempts = 0;

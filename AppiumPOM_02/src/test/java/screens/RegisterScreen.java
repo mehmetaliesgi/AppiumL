@@ -3,6 +3,7 @@ package screens;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class RegisterScreen extends BaseScreen{
     public RegisterScreen(AppiumDriver driver) {
@@ -34,6 +35,11 @@ public class RegisterScreen extends BaseScreen{
     @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/btnRegister")
     public WebElement btnRegister;
 
+    @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/textViewDesc1")
+    public WebElement alertMissMatchPassword;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Hesap Ayarları\")")
+    public WebElement btnAccountSettings;
 
 
     // Actions
@@ -72,8 +78,19 @@ public class RegisterScreen extends BaseScreen{
         return this;
     }
 
-    public MyAccountScreen clickRegister(){
+    public BaseScreen clickRegister(){
         click(btnRegister);
-        return new MyAccountScreen(driver);
+
+        if (isElementPresent(btnAccountSettings, 2)) {
+            return new MyAccountScreen(driver);
+        } else {
+            return this;
+        }
+    }
+
+    public RegisterScreen getAlertMissMatchPasswordText(String alertMessage){
+        String actualMessage = getText(alertMissMatchPassword);
+        Assert.assertEquals(actualMessage, alertMessage, "This alert is incorrect.");
+        return this;
     }
 }
