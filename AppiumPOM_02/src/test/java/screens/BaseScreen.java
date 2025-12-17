@@ -6,12 +6,15 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Pause;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -20,6 +23,7 @@ import java.util.Collections;
 public class BaseScreen {
     protected AppiumDriver driver;
     private final long DEFAULT_TIMEOUT = 3;
+    private final long POLLING_INTERVAL = 200;
 
     public BaseScreen(AppiumDriver driver) {
         this.driver = driver;
@@ -28,36 +32,44 @@ public class BaseScreen {
 
     // Waits
     protected WebElement waitForVisibility(By locator) {
-        return new WebDriverWait(driver, Duration.ofSeconds(DEFAULT_TIMEOUT))
+        return new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(DEFAULT_TIMEOUT))
+                .pollingEvery(Duration.ofMillis(POLLING_INTERVAL))
+                .ignoring(NoSuchElementException.class)
                 .until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    protected void waitForVisibility(WebElement element) {
-        new WebDriverWait(driver, Duration.ofSeconds(DEFAULT_TIMEOUT))
+    protected WebElement waitForVisibility(WebElement element) {
+        return new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(DEFAULT_TIMEOUT))
+                .pollingEvery(Duration.ofMillis(POLLING_INTERVAL))
+                .ignoring(NoSuchElementException.class)
                 .until(ExpectedConditions.visibilityOf(element));
     }
 
-    protected void waitForClickable(By locator) {
-        new WebDriverWait(driver, Duration.ofSeconds(DEFAULT_TIMEOUT))
-                .until(ExpectedConditions.elementToBeClickable(locator));
+    protected WebElement waitForClickable(WebElement element) {
+        return new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(DEFAULT_TIMEOUT))
+                .pollingEvery(Duration.ofMillis(POLLING_INTERVAL))
+                .ignoring(NoSuchElementException.class)
+                .until(ExpectedConditions.elementToBeClickable(element));
     }
 
     // Clicks
     protected void click(WebElement element) {
-        waitForVisibility(element);
+        waitForClickable(element);
         element.click();
     }
 
     protected void doubleClick(WebElement element) {
         Actions actions = new Actions(driver);
-
-        waitForVisibility(element);
+        waitForClickable(element);
         actions.moveToElement(element).doubleClick().perform();
     }
 
     // Send String
     protected void sendContext(WebElement element, String text) {
-        waitForVisibility(element);
+        waitForClickable(element);
         element.clear();
         element.sendKeys(text);
     }
@@ -71,10 +83,13 @@ public class BaseScreen {
     // Display Element
     protected boolean isElementPresent(WebElement element, int timeoutInSeconds) {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
-            wait.until(driver -> element.isDisplayed());
+            new FluentWait<>(driver)
+                    .withTimeout(Duration.ofSeconds(timeoutInSeconds))
+                    .pollingEvery(Duration.ofMillis(POLLING_INTERVAL))
+                    .ignoring(NoSuchElementException.class)
+                    .until(ExpectedConditions.visibilityOf(element));
             return true;
-        } catch (Exception e) {
+        } catch (TimeoutException e) {
             return false;
         }
     }
