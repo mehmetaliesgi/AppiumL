@@ -45,6 +45,19 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void invalidPasswordRegisterTest(){
+        MainScreen mainScreen = new MainScreen(driver);
+
+        RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
+                .clickRegister()
+                .enterName("Mehmet Ali")
+                .enterLastName("Esgi")
+                .enterEmail("mehmetaliesgi60@gmail.com")
+                .enterPassword("1")
+                .enterConfirmPassword("1")
+                .clickSecretAndSecurityPolicy()
+                .clickRegister();
+
+        registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_PASSWORD);
     }
 
     @Test
