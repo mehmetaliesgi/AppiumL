@@ -28,6 +28,19 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void alreadyExistsUserTest(){
+        MainScreen mainScreen = new MainScreen(driver);
+
+        RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
+                .clickRegister()
+                .enterName("Mehmet Ali")
+                .enterLastName("Esgi")
+                .enterEmail("railsmail1993@gmail.com")
+                .enterPassword("YourPassword1.")
+                .enterConfirmPassword("YourPassword1.")
+                .clickSecretAndSecurityPolicy()
+                .clickRegister();
+
+        registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_EMAIL_ALREADY_REGISTERED);
     }
 
     @Test
