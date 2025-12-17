@@ -19,6 +19,9 @@ public class LoginScreen extends BaseScreen{
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Giriş Yap\")")
     public WebElement btnLogin;
 
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Ücretsiz Üye Ol\")")
+    public WebElement btnRegister;
+
 
     // Actions
     public LoginScreen enterEmail(String email){
@@ -34,5 +37,10 @@ public class LoginScreen extends BaseScreen{
     public MyAccountScreen clickLogin(){
         click(btnLogin);
         return new MyAccountScreen(driver);
+    }
+
+    public RegisterScreen clickRegister(){
+        click(btnRegister);
+        return new RegisterScreen(driver);
     }
 }
