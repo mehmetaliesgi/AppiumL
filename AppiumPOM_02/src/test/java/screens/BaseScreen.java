@@ -15,14 +15,13 @@ import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.Collections;
 
 public class BaseScreen {
     protected AppiumDriver driver;
-    private final long DEFAULT_TIMEOUT = 3;
+    private final long DEFAULT_TIMEOUT = 10;
     private final long POLLING_INTERVAL = 200;
 
     public BaseScreen(AppiumDriver driver) {

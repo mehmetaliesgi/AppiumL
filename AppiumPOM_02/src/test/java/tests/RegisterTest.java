@@ -184,17 +184,21 @@ public class RegisterTest extends BaseTest{
     public void withoutConfirmPasswordRegisterTest(){
         MainScreen mainScreen = new MainScreen(driver);
 
+        takeScreenshot("RegisterTest", "beforeWithoutConfirmPassword");
+
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
                 .enterName("@12")
                 .enterLastName("1512")
-                .enterEmail("mehmetaliesgi60gmail.com")
+                .enterEmail("mehmetaliesgi60@gmail.com")
                 .enterPassword("1123456790")
                 .enterConfirmPassword("")
                 .clickSecretAndSecurityPolicy()
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_MISS_MATCH_PASSWORD_MESSAGE);
+
+        takeScreenshot("RegisterTest", "AfterWithoutConfirmPassword");
     }
 
     @Test
@@ -205,7 +209,7 @@ public class RegisterTest extends BaseTest{
                 .clickRegister()
                 .enterName("@12")
                 .enterLastName("1512")
-                .enterEmail("mehmetaliesgi60gmail.com")
+                .enterEmail("mehmetaliesgi60@gmail.com")
                 .enterPassword("1123456790")
                 .enterConfirmPassword("1123456790")
                 .clickRegister();
