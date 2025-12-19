@@ -1,4 +1,4 @@
-package utils;
+package utils.helpers;
 
 import io.appium.java_client.AppiumDriver;
 import org.apache.commons.io.FileUtils;
@@ -21,7 +21,7 @@ public class ScreenshotHelper {
         try {
             String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-            String folderPath = "screenshots/" + testClassName;
+            String folderPath = ConfigReader.getProperty("screenshot.path") + testClassName;
             String fileName = testMethodName + "_" + timestamp + ".png";
             String fullPath = folderPath + "/" + fileName;
 

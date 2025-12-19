@@ -5,7 +5,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import tests.BaseTest;
-import utils.ScreenshotHelper;
+import utils.helpers.ScreenshotHelper;
 
 public class TestListener implements ITestListener {
     @Override

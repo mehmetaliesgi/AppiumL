@@ -2,6 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 import screens.MainScreen;
+import utils.helpers.ConfigReader;
 
 public class LoginTest extends BaseTest{
 
@@ -10,9 +11,9 @@ public class LoginTest extends BaseTest{
         MainScreen mainScreen = new MainScreen(driver);
 
         mainScreen.clickMyAccount()
-                .enterEmail("YOUR_EMAIL")
-                .enterPassword("YOUR_PASSWORD")
+                .enterEmail(ConfigReader.getTestUserEmail())
+                .enterPassword(ConfigReader.getTestUserPassword())
                 .clickLogin()
-                .verifyMyAccountScreen("YOUR_EMAIL");
+                .verifyMyAccountScreen(ConfigReader.getTestUserEmail());
     }
 }

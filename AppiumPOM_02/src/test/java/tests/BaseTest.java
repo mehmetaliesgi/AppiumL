@@ -8,7 +8,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
-import utils.ScreenshotHelper;
+import utils.helpers.ConfigReader;
+import utils.helpers.ScreenshotHelper;
 import utils.listeners.TestListener;
 
 import java.time.Duration;
@@ -27,8 +28,8 @@ public class BaseTest {
         DesiredCapabilities caps = getDesiredCapabilities();
 
         AppiumDriverLocalService service = new AppiumServiceBuilder()
-                .withIPAddress("127.0.0.1")
-                .usingPort(4723)
+                .withIPAddress(ConfigReader.getAppiumServerUrl())
+                .usingPort(ConfigReader.getAppiumServerPort())
                 .build();
         service.start();
 
@@ -36,19 +37,21 @@ public class BaseTest {
 
         screenshotHelper = new ScreenshotHelper(driver);
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ConfigReader.getIntProperty("implicit.wait")));
+
+        System.out.println("Test ortamı hazır: " + ConfigReader.getProperty("environment"));
     }
 
     private DesiredCapabilities getDesiredCapabilities() {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("platformName", "Android");
-        caps.setCapability("appium:platformVersion", "16.0");
-        caps.setCapability("appium:packageName", "com.mobisoft.kitapyurdu");
-        caps.setCapability("appium:activityName", "com.mobisoft.kitapyurdu.main.MainActivity");
-        caps.setCapability("appium:automationName", "UIAutomator2");
-        caps.setCapability("appium:deviceName", "MediumPhone");
-        caps.setCapability("appium:noReset", true);
-        caps.setCapability("appium:fullReset", false);
+        caps.setCapability("platformName", ConfigReader.getAppiumPlatformName());
+        caps.setCapability("appium:platformVersion", ConfigReader.getProperty("appium.platform.version"));
+        caps.setCapability("appium:packageName", ConfigReader.getAndroidPackageName());
+        caps.setCapability("appium:activityName", ConfigReader.getAndroidActivityName());
+        caps.setCapability("appium:automationName", ConfigReader.getProperty("appium.automation.name"));
+        caps.setCapability("appium:deviceName", ConfigReader.getAppiumDeviceName());
+        caps.setCapability("appium:noReset", ConfigReader.getAppiumNoReset());
+        caps.setCapability("appium:fullReset", ConfigReader.getBooleanProperty("appium.full.reset"));
         return caps;
     }
 
@@ -60,6 +63,8 @@ public class BaseTest {
     }
 
     protected void takeScreenshot(String className, String methodName) {
-        screenshotHelper.takeOrganizedScreenshot(className, methodName);
+        if (ConfigReader.getBooleanProperty("screenshot.enabled")) {
+            screenshotHelper.takeOrganizedScreenshot(className, methodName);
+        }
     }
 }
