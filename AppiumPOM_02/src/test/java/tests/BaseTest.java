@@ -9,6 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import utils.helpers.ConfigReader;
+import utils.helpers.ExcelReader;
 import utils.helpers.ScreenshotHelper;
 import utils.listeners.TestListener;
 
@@ -18,6 +19,7 @@ import java.time.Duration;
 public class BaseTest {
     public AppiumDriver driver;
     protected ScreenshotHelper screenshotHelper;
+    protected ExcelReader reader;
 
     public  AppiumDriver getDriver() {
         return driver;
@@ -39,6 +41,8 @@ public class BaseTest {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ConfigReader.getIntProperty("implicit.wait")));
 
+        reader = new ExcelReader("src/test/resources/testdata.xlsx", "LoginData");
+
         System.out.println("Test ortamı hazır: " + ConfigReader.getProperty("environment"));
     }
 
@@ -57,6 +61,8 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown() {
+        reader.close();
+
         if (driver != null) {
             driver.quit();
         }
