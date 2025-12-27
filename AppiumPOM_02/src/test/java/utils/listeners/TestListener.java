@@ -5,6 +5,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import tests.BaseTest;
+import tests.BaseTestParallelTest;
 import utils.helpers.ScreenshotHelper;
 
 public class TestListener implements ITestListener {

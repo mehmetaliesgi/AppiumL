@@ -6,7 +6,7 @@ import screens.MyAccountScreen;
 import screens.RegisterScreen;
 import utils.AlertMessages;
 
-public class RegisterTest extends BaseTest{
+public class RegisterTest extends BaseTestParallelTest {
 
     public AlertMessages alertMessages = new AlertMessages();
 

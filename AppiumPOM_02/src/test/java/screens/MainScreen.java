@@ -13,9 +13,18 @@ public class MainScreen extends BaseScreen{
     @AndroidFindBy(accessibility = "Hesabım")
     public WebElement btnMyAccount;
 
+    @AndroidFindBy(accessibility = "Ara")
+    public WebElement btnSearch;
+
+
     // Actions
     public LoginScreen clickMyAccount(){
         click(btnMyAccount);
         return new LoginScreen(driver);
+    }
+
+    public SearchAndCategoriesScreen clickSearch(){
+        click(btnSearch);
+        return new SearchAndCategoriesScreen(driver);
     }
 }

@@ -6,9 +6,7 @@ import screens.MainScreen;
 import utils.helpers.ConfigReader;
 import utils.helpers.ExcelReader;
 
-import java.io.IOException;
-
-public class LoginTest extends BaseTest{
+public class LoginTest extends BaseTest {
 
     @Test
     public void successfulLoginTest() {
@@ -57,7 +55,7 @@ public class LoginTest extends BaseTest{
     }
 
 
-    @DataProvider(name = "excelLoginData", parallel = true)
+    @DataProvider(name = "excelLoginData")
     public Object[][] getExcelLoginData() {
         ExcelReader reader = new ExcelReader(
                 "src/test/resources/testdata.xlsx",

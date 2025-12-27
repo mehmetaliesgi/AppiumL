@@ -13,115 +13,60 @@ import utils.helpers.ScreenshotHelper;
 import utils.listeners.TestListener;
 
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
+
 
 @Listeners(TestListener.class)
 public class BaseTest {
-    private static ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
-    private static ThreadLocal<ScreenshotHelper> screenshotHelper = new ThreadLocal<>();
-    private static ThreadLocal<AppiumDriverLocalService> service = new ThreadLocal<>();
-
-    private static Map<Long, Integer> threadIdMap = new HashMap<>();
-    private static AtomicInteger deviceCounter = new AtomicInteger(0);
-    private static final int DEVICE_COUNT = 2;
+    public AppiumDriver driver;
+    protected ScreenshotHelper screenshotHelper;
 
     public AppiumDriver getDriver() {
-        return driver.get();
+        return driver;
     }
 
     @BeforeMethod
     public void setUp() throws Exception {
-        long currentThreadId = Thread.currentThread().getId();
+        UiAutomator2Options caps = getDesiredCapabilities();
 
-        int threadId;
-        synchronized (threadIdMap) {
-            if (!threadIdMap.containsKey(currentThreadId)) {
-                int deviceIndex = (deviceCounter.getAndIncrement() % DEVICE_COUNT) + 1;
-                threadIdMap.put(currentThreadId, deviceIndex);
-            }
-            threadId = threadIdMap.get(currentThreadId);
-        }
-
-        cleanupPort(threadId);
-
-        UiAutomator2Options caps = getDesiredCapabilities(threadId);
-
-        AppiumDriverLocalService localService = new AppiumServiceBuilder()
-                .withIPAddress(ConfigReader.getAppiumServerUrl(threadId))
-                .usingPort(ConfigReader.getAppiumServerPort(threadId))
+        AppiumDriverLocalService service = new AppiumServiceBuilder()
+                .withIPAddress("127.0.0.1")
+                .usingPort(4723)
                 .withArgument(() -> "--base-path", "/wd/hub")
                 .build();
+        service.start();
 
-        localService.start();
-        service.set(localService);
+        driver = new AndroidDriver(service.getUrl(), caps);
 
-        AppiumDriver appiumDriver = new AndroidDriver(localService.getUrl(), caps);
-        driver.set(appiumDriver);
+        screenshotHelper = new ScreenshotHelper(driver);
 
-        ScreenshotHelper helper = new ScreenshotHelper(appiumDriver);
-        screenshotHelper.set(helper);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ConfigReader.getIntProperty("implicit.wait")));
 
-        appiumDriver.manage().timeouts().implicitlyWait(
-                Duration.ofSeconds(ConfigReader.getIntProperty("implicit.wait"))
-        );
+        System.out.println("Test ortamı hazır: " + ConfigReader.getProperty("environment"));
     }
 
-    private UiAutomator2Options getDesiredCapabilities(int threadId) {
-        UiAutomator2Options caps = new UiAutomator2Options();
-        caps.setPlatformName(ConfigReader.getAppiumPlatformName());
-        caps.setPlatformVersion(ConfigReader.getProperty("appium.platform.version"));
-        caps.setAppPackage(ConfigReader.getAndroidPackageName());
-        caps.setAppActivity(ConfigReader.getAndroidActivityName());
-        caps.setAutomationName(ConfigReader.getProperty("appium.automation.name"));
-
-        caps.setUdid(ConfigReader.getDeviceUdid(threadId));
-
-        caps.setNoReset(ConfigReader.getAppiumNoReset());
-        caps.setFullReset(ConfigReader.getBooleanProperty("appium.full.reset"));
-
-        caps.setSystemPort(ConfigReader.getSystemPort(threadId));
-
-        caps.setNewCommandTimeout(Duration.ofSeconds(300));
+    private UiAutomator2Options getDesiredCapabilities() {
+        UiAutomator2Options  caps = new UiAutomator2Options ();
+        caps.setCapability("platformName", ConfigReader.getAppiumPlatformName());
+        caps.setCapability("appium:platformVersion", ConfigReader.getProperty("appium.platform.version"));
+        caps.setCapability("appium:packageName", ConfigReader.getAndroidPackageName());
+        caps.setCapability("appium:activityName", ConfigReader.getAndroidActivityName());
+        caps.setCapability("appium:automationName", ConfigReader.getProperty("appium.automation.name"));
+        caps.setCapability("appium:noReset", ConfigReader.getAppiumNoReset());
+        caps.setCapability("appium:fullReset", ConfigReader.getBooleanProperty("appium.full.reset"));
 
         return caps;
     }
 
     @AfterMethod
     public void tearDown() {
-        if (driver.get() != null) {
-            driver.get().quit();
-            driver.remove();
-        }
-
-        if (service.get() != null) {
-            service.get().stop();
-            service.remove();
-        }
-
-        if (screenshotHelper.get() != null) {
-            screenshotHelper.remove();
+        if (driver != null) {
+            driver.quit();
         }
     }
 
     protected void takeScreenshot(String className, String methodName) {
         if (ConfigReader.getBooleanProperty("screenshot.enabled")) {
-            screenshotHelper.get().takeOrganizedScreenshot(className, methodName);
-        }
-    }
-
-    private void cleanupPort(int threadId) {
-        try {
-            String deviceUdid = ConfigReader.getDeviceUdid(threadId);
-
-            Process process = Runtime.getRuntime().exec(
-                    "adb -s " + deviceUdid + " forward --remove-all"
-            );
-            process.waitFor();
-
-        } catch (Exception e) {
-            System.out.println("Port temizleme hatası: " + e.getMessage());
+            screenshotHelper.takeOrganizedScreenshot(className, methodName);
         }
     }
 }

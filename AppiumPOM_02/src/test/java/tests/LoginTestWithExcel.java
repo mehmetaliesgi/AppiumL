@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import screens.MainScreen;
 import utils.helpers.ExcelReader;
 
-public class LoginTestWithExcel extends BaseTest{
+public class LoginTestWithExcel extends BaseTestParallelTest {
 
     @Test
     public void loginTest() {

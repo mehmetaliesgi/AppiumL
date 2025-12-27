@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import screens.MainScreen;
 import utils.helpers.ExcelReader;
 
-public class LoginExcelDataProviderTest extends BaseTest{
+public class LoginExcelDataProviderTest extends BaseTestParallelTest {
 
     @Test(dataProvider = "parallelData")
     public void testLoginWithExcelDataRunParallel(String email, String password) {
