@@ -37,20 +37,8 @@ public class ConfigReader {
         return Boolean.parseBoolean(getProperty(key));
     }
 
-    public static String getAppiumServerUrl() {
-        return getProperty("appium.server.url");
-    }
-
-    public static int getAppiumServerPort() {
-        return getIntProperty("appium.server.port");
-    }
-
     public static String getAppiumPlatformName() {
         return getProperty("appium.platform.name");
-    }
-
-    public static String getAppiumDeviceName() {
-        return getProperty("appium.device.name");
     }
 
     public static String getAndroidPackageName() {
@@ -79,5 +67,22 @@ public class ConfigReader {
 
     public static boolean getAppiumNoReset() {
         return getBooleanProperty("appium.no.reset");
+    }
+
+    public static String getAppiumServerUrl(int threadId) {
+        return getProperty("appium.server.url." + threadId);
+    }
+
+    public static int getAppiumServerPort(int threadId) {
+        return getIntProperty("appium.server.port." + threadId);
+    }
+
+
+    public static int getSystemPort(int threadId) {
+        return getIntProperty("appium.system.port." + threadId);
+    }
+
+    public static String getDeviceUdid(int threadId) {
+        return getProperty("appium.device.udid." + threadId);
     }
 }

@@ -12,7 +12,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void missMatchPasswordRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -29,7 +29,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void alreadyExistsUserTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -46,7 +46,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void invalidPasswordRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -63,7 +63,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void invalidNameRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -80,7 +80,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void invalidLastNameRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -97,7 +97,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void invalidEmailRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -114,7 +114,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutNameRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -131,7 +131,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutLastNameRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -148,7 +148,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutEmailRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -165,7 +165,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutPasswordRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -182,7 +182,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutConfirmPasswordRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         takeScreenshot("RegisterTest", "beforeWithoutConfirmPassword");
 
@@ -203,7 +203,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutSecretAndSecurityPolicyRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         RegisterScreen registerScreen = (RegisterScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -219,7 +219,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void withoutCampaignPolicyRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         MyAccountScreen myAccountScreen = (MyAccountScreen) mainScreen.clickMyAccount()
                 .clickRegister()
@@ -236,7 +236,7 @@ public class RegisterTest extends BaseTest{
 
     @Test
     public void successfullyRegisterTest(){
-        MainScreen mainScreen = new MainScreen(driver);
+        MainScreen mainScreen = new MainScreen(getDriver());
 
         MyAccountScreen myAccountScreen = (MyAccountScreen) mainScreen.clickMyAccount()
                 .clickRegister()

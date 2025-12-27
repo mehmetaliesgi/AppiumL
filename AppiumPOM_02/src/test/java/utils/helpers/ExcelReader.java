@@ -97,6 +97,30 @@ public class ExcelReader {
         }
     }
 
+    public Object[] getRowData(int rowNum) {
+        int colCount = getColumnCount();
+        Object[] data = new Object[colCount];
+
+        for (int i = 0; i < colCount; i++) {
+            data[i] = getCellData(rowNum, i);
+        }
+        return data;
+    }
+
+    public Object[][] getAllData() {
+        int rowCount = getRowCount(); // Header hariç
+        int colCount = getColumnCount();
+
+        Object[][] data = new Object[rowCount][colCount];
+
+        for (int i = 1; i <= rowCount; i++) { // 0. satır header, 1'den başla
+            for (int j = 0; j < colCount; j++) {
+                data[i - 1][j] = getCellData(i, j);
+            }
+        }
+        return data;
+    }
+
     public void close() {
         try {
             if (workbook != null) {

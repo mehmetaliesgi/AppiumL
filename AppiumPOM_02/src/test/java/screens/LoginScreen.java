@@ -22,6 +22,12 @@ public class LoginScreen extends BaseScreen{
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Ücretsiz Üye Ol\")")
     public WebElement btnRegister;
 
+    @AndroidFindBy(accessibility = "Tamam")
+    public WebElement alertBtnOK;
+
+    @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/btn_ic_back")
+    public WebElement btnBack;
+
 
     // Actions
     public LoginScreen enterEmail(String email){
@@ -42,5 +48,20 @@ public class LoginScreen extends BaseScreen{
     public RegisterScreen clickRegister(){
         click(btnRegister);
         return new RegisterScreen(driver);
+    }
+
+    public LoginScreen clickLoginForWrongInputs(){
+        click(btnLogin);
+        return this;
+    }
+
+    public LoginScreen alertBtnOK() {
+        click(alertBtnOK);
+        return this;
+    }
+
+    public MainScreen clickBack(){
+        click(btnBack);
+        return new MainScreen(driver);
     }
 }
