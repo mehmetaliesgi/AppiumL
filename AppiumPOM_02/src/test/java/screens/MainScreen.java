@@ -16,6 +16,9 @@ public class MainScreen extends BaseScreen{
     @AndroidFindBy(accessibility = "Ara")
     public WebElement btnSearch;
 
+    @AndroidFindBy(accessibility = "Kampanyalar")
+    public WebElement btnCampaigns;
+
 
     // Actions
     public LoginScreen clickMyAccount(){
@@ -26,5 +29,10 @@ public class MainScreen extends BaseScreen{
     public SearchAndCategoriesScreen clickSearch(){
         click(btnSearch);
         return new SearchAndCategoriesScreen(driver);
+    }
+
+    public CampaignsScreen clickCampaigns() {
+        click(btnCampaigns);
+        return new CampaignsScreen(driver);
     }
 }

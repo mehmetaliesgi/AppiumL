@@ -114,6 +114,27 @@ public class BaseScreen {
         throw new RuntimeException("Element not found after scrolling: " + locator.toString());
     }
 
+
+    // Scroll
+    protected void scrollUntilVisibleWithWebElement(WebElement element, int maxScrollCount, Direction direction) {
+        int attempts = 0;
+
+        while (attempts < maxScrollCount) {
+            try {
+                if (element.isDisplayed()) {
+                    return;
+                }
+            } catch (Exception ignored) {
+            }
+
+            performScroll(direction);
+            attempts++;
+        }
+
+        throw new RuntimeException("Element not found after scrolling: " + element.toString());
+    }
+
+
     private void performScroll(Direction direction) {
         Dimension size = driver.manage().window().getSize();
 
@@ -124,12 +145,12 @@ public class BaseScreen {
 
         switch (direction) {
             case DOWN:
-                startY = (int) (size.getHeight() * 0.8);
-                endY = (int) (size.getHeight() * 0.2);
+                startY = (int) (size.getHeight() * 0.7);
+                endY = (int) (size.getHeight() * 0.3);
                 break;
             case UP:
-                startY = (int) (size.getHeight() * 0.2);
-                endY = (int) (size.getHeight() * 0.8);
+                startY = (int) (size.getHeight() * 0.3);
+                endY = (int) (size.getHeight() * 0.7);
                 break;
             default:
                 throw new IllegalArgumentException("Invalid scroll direction for performScroll: " + direction);
