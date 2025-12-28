@@ -14,11 +14,19 @@ public class MyAccountScreen extends BaseScreen {
     @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/textViewMail")
     public WebElement txtMail;
 
+    @AndroidFindBy(accessibility = "Ana Sayfa")
+    public WebElement btnHome;
+
 
     // Actions
     public MyAccountScreen verifyMyAccountScreen(String expectedMmail) {
         String actualEmail = getText(txtMail);
         Assert.assertEquals(actualEmail, expectedMmail, "Login attempt failed");
         return this;
+    }
+
+    public MainScreen clickBtnHome(){
+        click(btnHome);
+        return new MainScreen(driver);
     }
 }

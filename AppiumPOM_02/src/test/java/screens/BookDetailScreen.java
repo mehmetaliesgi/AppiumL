@@ -24,6 +24,9 @@ public class BookDetailScreen extends BaseScreen{
     @AndroidFindBy(accessibility = "Ana Sayfa")
     public WebElement elMainScreen;
 
+    @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/textViewPreparationDesc")
+    public WebElement elPreparationDesc;
+
 
 
     // Actions
@@ -51,6 +54,12 @@ public class BookDetailScreen extends BaseScreen{
     public MainScreen clickMainScreen(){
         click(elMainScreen);
         return new MainScreen(driver);
+    }
+
+    public BookDetailScreen assertPreparationDesc(String preparationDesc){
+        String actualMessage = getText(elPreparationDesc);
+        Assert.assertEquals(actualMessage, preparationDesc, "Preparation desc is incorrect.");
+        return this;
     }
 
 }
