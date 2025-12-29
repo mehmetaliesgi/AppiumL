@@ -31,7 +31,7 @@ public class BaseTestParallelTest {
         return driver.get();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() throws Exception {
         long currentThreadId = Thread.currentThread().getId();
 
@@ -88,7 +88,7 @@ public class BaseTestParallelTest {
         return caps;
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         if (driver.get() != null) {
             driver.get().quit();

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Specific Test Methods Suite" verbose="1">
+
+    <test name="Only Specific Test Methods">
+        <!-- LoginTest sinifindaki testSuccessfulLogin ve testLoginWithInvalidEmail testlerini kos. Digerlerine elleme diyoruz.-->
+        <classes>
+            <class name="tests.LoginTest">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                    <include name="testLoginWithInvalidEmail"/>
+                </methods>
+            </class>
+
+            <!-- SearchTest sinifindaki searchAuthorTest testi haricinde baska test kosma diyoruz. -->
+            <class name="tests.SearchTest">
+                <methods>
+                    <include name="searchAuthorTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" thread-count="2" data-provider-thread-count="2">
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <!-- Eger sadece LoginExcelDataProviderTest sinifi icindeki degil de butun test package altindaki regression
+         testlerini kosmak istersek bu kodu kullanabiliriz -->
+<!--        <packages>-->
+<!--            <package name="tests.*" />-->
+<!--        </packages>-->
+
+        <classes>
+            <class name="tests.LoginExcelDataProviderTest"/>
+        </classes>
+    </test>
+</suite>

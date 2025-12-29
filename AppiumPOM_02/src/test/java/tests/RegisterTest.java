@@ -4,13 +4,15 @@ import org.testng.annotations.Test;
 import screens.MainScreen;
 import screens.MyAccountScreen;
 import screens.RegisterScreen;
-import utils.AlertMessages;
+import utils.constants.AlertMessages;
 
-public class RegisterTest extends BaseTestParallelTest {
+import static utils.constants.TestGroups.*;
+
+public class RegisterTest extends BaseTest {
 
     public AlertMessages alertMessages = new AlertMessages();
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE})
     public void missMatchPasswordRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -25,9 +27,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_MISS_MATCH_PASSWORD_MESSAGE);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void alreadyExistsUserTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -42,9 +48,14 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_EMAIL_ALREADY_REGISTERED);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
+
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void invalidPasswordRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -59,9 +70,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_PASSWORD);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void invalidNameRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -76,9 +91,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_NAME);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void invalidLastNameRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -93,9 +112,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_LASTNAME);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void invalidEmailRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -110,9 +133,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_EMAIL);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutNameRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -127,9 +154,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_NAME);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutLastNameRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -144,9 +175,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_INVALID_LASTNAME);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutEmailRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -161,9 +196,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_EMPTY_EMAIL);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutPasswordRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -178,9 +217,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_EMPTY_PASSWORD);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutConfirmPasswordRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -199,9 +242,13 @@ public class RegisterTest extends BaseTestParallelTest {
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_MISS_MATCH_PASSWORD_MESSAGE);
 
         takeScreenshot("RegisterTest", "AfterWithoutConfirmPassword");
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutSecretAndSecurityPolicyRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -215,9 +262,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         registerScreen.getAlertMissMatchPasswordText(alertMessages.ALERT_UNCHECKED_SECURITY_POLICY);
+
+        registerScreen.clickConfirm();
+        registerScreen.clickBackAfterInvalidRegister();
+        registerScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {REGISTER, SMOKE, INVALID})
     public void withoutCampaignPolicyRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 
@@ -232,9 +283,13 @@ public class RegisterTest extends BaseTestParallelTest {
                 .clickRegister();
 
         myAccountScreen.verifyMyAccountScreen("YOUR_MAIL");
+
+        mainScreen.clickConfirm();
+        mainScreen.clickBackAfterInvalidRegister();
+        mainScreen.clickBackAfterInvalidRegister();
     }
 
-    @Test
+    @Test(groups = {SMOKE, REGISTER, SUCCESSFULLY})
     public void successfullyRegisterTest(){
         MainScreen mainScreen = new MainScreen(getDriver());
 

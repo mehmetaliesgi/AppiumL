@@ -6,8 +6,8 @@ import screens.MainScreen;
 
 public class SearchTest extends BaseTest {
 
-    @Test
-    public void searchTest(){
+    @Test(groups = {"smoke", "search"})
+    public void searchAuthorTest(){
         String author = "Bertrand Russell";
 
         MainScreen mainScreen = new MainScreen(getDriver());

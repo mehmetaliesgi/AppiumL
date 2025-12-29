@@ -2,6 +2,7 @@ package screens;
 
 import enums.Direction;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -29,6 +30,26 @@ public class BaseScreen {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(DEFAULT_TIMEOUT)), this);
     }
+
+    // Common Elements
+    @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/textViewConfirm")
+    public WebElement btnConfirm;
+
+    @AndroidFindBy(accessibility = "Geri Butonu")
+    public WebElement btnBack;
+
+
+    // Common Actions
+    public void clickConfirm()
+    {
+        click(btnConfirm);
+    }
+
+    public void clickBackAfterInvalidRegister()
+    {
+        click(btnBack);
+    }
+
 
     // Waits
     protected WebElement waitForVisibility(By locator) {

@@ -24,7 +24,7 @@ public class BaseTest {
         return driver;
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() throws Exception {
         UiAutomator2Options caps = getDesiredCapabilities();
 
@@ -57,7 +57,7 @@ public class BaseTest {
         return caps;
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         if (driver != null) {
             driver.quit();

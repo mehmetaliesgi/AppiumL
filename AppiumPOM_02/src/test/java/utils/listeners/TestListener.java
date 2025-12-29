@@ -15,7 +15,7 @@ public class TestListener implements ITestListener {
 
         // Driver'ı test sınıfından al
         Object testClass = result.getInstance();
-        AppiumDriver driver = ((BaseTest) testClass).getDriver();
+        AppiumDriver driver = ((BaseTestParallelTest) testClass).getDriver();
 
         if (driver != null) {
             ScreenshotHelper screenshotHelper = new ScreenshotHelper(driver);

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Priority Based Suite" verbose="1">
+
+    <!-- Critical testler önce. preserve-order ozelligi siranin korunarak calisacagini garanti eder. -->
+    <test name="Critical Tests" preserve-order="true">
+        <groups>
+            <run>
+                <include name="critical"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="tests.*"/>
+        </packages>
+    </test>
+
+    <!-- Sonra normal testler -->
+    <test name="Normal Tests" preserve-order="true">
+        <groups>
+            <run>
+                <!-- regression testlerini kos ama critical olanlari cikar. Bir test hem regression hemde critical olarak
+                 isaretlenmisse tekrar kosma. Bir nevi name degeri bu alan testleri kosma diyoruz. -->
+                <include name="regression"/>
+                <exclude name="critical"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="tests.*"/>
+        </packages>
+    </test>
+
+</suite>

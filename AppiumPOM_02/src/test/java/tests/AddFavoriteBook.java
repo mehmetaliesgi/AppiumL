@@ -7,7 +7,7 @@ import screens.MyAccountScreen;
 
 public class AddFavoriteBook extends BaseTest {
 
-    @Test
+    @Test(groups = {"regression", "favorite"})
     public void TryAddFavoriteWithoutLogin(){
         MainScreen mainScreen = new MainScreen(driver);
 
