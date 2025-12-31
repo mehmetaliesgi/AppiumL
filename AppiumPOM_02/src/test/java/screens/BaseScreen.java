@@ -4,6 +4,7 @@ import enums.Direction;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
@@ -17,6 +18,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import utils.helpers.ConfigReader;
+import utils.helpers.LogHelper;
 
 import java.time.Duration;
 import java.util.Collections;
@@ -25,10 +27,13 @@ public class BaseScreen {
     protected AppiumDriver driver;
     private final long DEFAULT_TIMEOUT = ConfigReader.getExplicitWait();
     private final long POLLING_INTERVAL = ConfigReader.getPoolingInterval();
+    protected Logger logger;
 
     public BaseScreen(AppiumDriver driver) {
         this.driver = driver;
+        this.logger = LogHelper.getLogger(this.getClass());
         PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(DEFAULT_TIMEOUT)), this);
+        logger.debug(this.getClass().getSimpleName() + " sayfası oluşturuldu");
     }
 
     // Common Elements
@@ -42,11 +47,13 @@ public class BaseScreen {
     // Common Actions
     public void clickConfirm()
     {
+        logger.info("Tıklanıyor: " + btnConfirm.getText());
         click(btnConfirm);
     }
 
     public void clickBackAfterInvalidRegister()
     {
+        logger.info("Tıklanıyor: " + btnBack.getText());
         click(btnBack);
     }
 
@@ -78,11 +85,13 @@ public class BaseScreen {
 
     // Clicks
     protected void click(WebElement element) {
+        logger.info("Tıklanıyor: " + element.getText());
         waitForClickable(element);
         element.click();
     }
 
     protected void doubleClick(WebElement element) {
+        logger.info("Tıklanıyor: " + element.getText());
         Actions actions = new Actions(driver);
         waitForClickable(element);
         actions.moveToElement(element).doubleClick().perform();
@@ -90,6 +99,7 @@ public class BaseScreen {
 
     // Send String
     protected void sendContext(WebElement element, String text) {
+        logger.info("Metin giriliyor: " + element.getText() + " = " + text);
         waitForClickable(element);
         element.clear();
         element.sendKeys(text);
@@ -97,6 +107,7 @@ public class BaseScreen {
 
     // Get text
     protected String getText(WebElement element) {
+        logger.info("Elementin texti aliniyor...");
         waitForVisibility(element);
         return element.getText();
     }
@@ -166,12 +177,16 @@ public class BaseScreen {
 
         switch (direction) {
             case DOWN:
+                logger.info("Ekran asagi kaydirilacak.");
                 startY = (int) (size.getHeight() * 0.7);
                 endY = (int) (size.getHeight() * 0.3);
+                logger.info("Ekran asagi kaydirildi.");
                 break;
             case UP:
+                logger.info("Ekran yukari kaydirilacak.");
                 startY = (int) (size.getHeight() * 0.3);
                 endY = (int) (size.getHeight() * 0.7);
+                logger.info("Ekran yukari kaydirildi.");
                 break;
             default:
                 throw new IllegalArgumentException("Invalid scroll direction for performScroll: " + direction);

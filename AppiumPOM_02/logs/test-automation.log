@@ -1,0 +1,736 @@
+2025-12-31 15:26:38.824 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:26:38.833 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:26:50.839 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:26:51.396 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:27:01.863 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:27:01.866 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:27:01.872 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:27:01.873 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:27:01.874 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 15:29:11.619 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:29:11.626 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:29:20.776 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:29:21.926 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:29:32.302 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:29:32.302 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:29:32.306 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:29:32.307 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:29:32.308 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 15:33:53.206 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:33:53.218 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:34:03.437 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:34:04.527 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:34:15.048 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:34:15.051 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:34:15.056 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:34:15.056 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:34:15.057 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 15:37:58.538 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:37:58.546 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:38:06.344 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:38:07.154 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:38:18.328 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:38:18.362 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:38:18.394 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:38:18.400 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:38:18.411 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 15:39:14.031 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:39:14.041 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:39:24.905 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:39:25.943 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:39:36.351 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:39:36.352 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:39:36.355 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:39:36.355 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:39:36.356 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 15:40:35.560 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:40:35.569 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:40:47.688 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:40:49.131 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:40:59.525 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:40:59.526 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:40:59.973 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/alreadyExistsUserTest_20251231_154059.png
+2025-12-31 15:41:05.840 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidEmailRegisterTest
+2025-12-31 15:41:16.112 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidEmailRegisterTest
+2025-12-31 15:41:16.113 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:41:16.474 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/invalidEmailRegisterTest_20251231_154116.png
+2025-12-31 15:41:22.929 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidLastNameRegisterTest
+2025-12-31 15:41:27.234 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:41:37.584 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidLastNameRegisterTest
+2025-12-31 15:41:37.584 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:41:37.884 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/invalidLastNameRegisterTest_20251231_154137.png
+2025-12-31 15:41:43.859 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidNameRegisterTest
+2025-12-31 15:41:44.003 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:41:54.364 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidNameRegisterTest
+2025-12-31 15:41:54.365 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:41:54.700 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/invalidNameRegisterTest_20251231_154154.png
+2025-12-31 15:42:00.757 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidPasswordRegisterTest
+2025-12-31 15:42:00.914 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:42:11.456 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidPasswordRegisterTest
+2025-12-31 15:42:11.456 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:42:11.705 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/invalidPasswordRegisterTest_20251231_154211.png
+2025-12-31 15:42:16.960 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: missMatchPasswordRegisterTest
+2025-12-31 15:42:17.198 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:53:05.213 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 15:53:05.221 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 15:53:13.692 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 15:53:14.282 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 15:53:15.216 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 15:53:16.252 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 15:53:17.677 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 15:53:18.947 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 15:53:20.211 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 15:53:21.607 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 15:53:22.915 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 15:53:23.941 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 15:53:25.642 [main] INFO  screens.RegisterScreen - Element2saniye boyunca aranacak...
+2025-12-31 15:53:46.414 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:53:46.422 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.androidUIAutomator: new UiSelector().text("Hesap Ayarları")})
+2025-12-31 15:53:53.612 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/alreadyExistsUserTest_20251231_155346.png
+2025-12-31 15:54:26.580 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidEmailRegisterTest
+2025-12-31 15:54:36.685 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidEmailRegisterTest
+2025-12-31 15:54:36.687 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:54:36.947 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/invalidEmailRegisterTest_20251231_155436.png
+2025-12-31 15:54:42.303 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidLastNameRegisterTest
+2025-12-31 15:54:52.360 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidLastNameRegisterTest
+2025-12-31 15:54:52.360 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:54:52.652 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/invalidLastNameRegisterTest_20251231_155452.png
+2025-12-31 16:00:10.446 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+2025-12-31 16:00:10.453 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: AppiumPOM_02
+2025-12-31 16:00:18.486 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:00:18.944 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:00:19.872 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:00:21.494 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:00:22.768 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:00:24.016 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:00:25.235 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:00:26.521 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:00:27.800 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:00:28.806 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:00:30.231 [main] INFO  screens.RegisterScreen - Element2saniye boyunca aranacak...
+2025-12-31 16:01:19.499 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+2025-12-31 16:01:19.508 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: AppiumPOM_02
+2025-12-31 16:01:28.120 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:01:40.878 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:02:08.861 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:02:21.927 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:02:23.222 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:02:24.451 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:02:25.648 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:02:26.893 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:02:28.175 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:03:12.490 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:04:06.755 [main] INFO  screens.RegisterScreen - Element2saniye boyunca aranacak...
+2025-12-31 16:05:23.633 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 16:05:23.645 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.androidUIAutomator: new UiSelector().text("Hesap Ayarları")})
+2025-12-31 16:05:24.392 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/alreadyExistsUserTest_20251231_160523.png
+2025-12-31 16:05:56.980 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: AppiumPOM_02
+2025-12-31 16:08:48.662 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+2025-12-31 16:08:48.667 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: AppiumPOM_02
+2025-12-31 16:08:57.377 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:08:58.037 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:08:59.154 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:09:00.133 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:09:02.007 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:09:03.370 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:09:04.942 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:09:06.833 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:09:08.678 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:09:09.973 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:09:11.932 [main] INFO  screens.RegisterScreen - Element2saniye boyunca aranacak...
+2025-12-31 16:11:23.280 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+2025-12-31 16:11:23.286 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: AppiumPOM_02
+2025-12-31 16:11:29.863 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:11:30.680 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:11:31.612 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:11:32.545 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:11:33.824 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:11:35.129 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:11:36.373 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:11:37.674 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:11:39.012 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:11:39.974 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:11:51.634 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:11:51.762 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:11:51.795 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:11:52.572 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:11:52.603 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:11:53.416 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:11:53.456 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:11:54.892 [main] INFO  utils.listeners.TestListener - Test Başarılı: alreadyExistsUserTest
+2025-12-31 16:11:55.281 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: AppiumPOM_02
+2025-12-31 16:13:49.012 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 16:13:49.022 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 16:13:55.781 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:13:56.524 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:13:57.475 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:13:58.430 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:13:59.700 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:14:01.329 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:14:02.627 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:14:03.979 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:14:05.280 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:14:06.260 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:14:18.043 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:14:18.273 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:14:18.328 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:14:19.194 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:14:19.249 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:14:20.202 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:14:20.271 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:14:22.113 [main] INFO  utils.listeners.TestListener - Test Başarılı: alreadyExistsUserTest
+2025-12-31 16:14:56.546 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidEmailRegisterTest
+2025-12-31 16:14:56.712 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:14:57.730 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:14:58.731 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:15:00.081 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = E2
+2025-12-31 16:15:02.021 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60gmail.com
+2025-12-31 16:15:03.327 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:15:04.730 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:15:06.021 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:06.899 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:15:18.139 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:15:18.258 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:15:18.308 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:15:19.049 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:19.091 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:19.937 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:19.978 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:21.193 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidEmailRegisterTest
+2025-12-31 16:15:25.319 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidLastNameRegisterTest
+2025-12-31 16:15:25.512 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:15:26.538 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:15:27.465 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:15:28.775 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = E
+2025-12-31 16:15:30.064 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:15:31.331 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:15:32.657 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:15:33.980 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:34.907 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:15:46.160 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:15:46.278 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:15:46.311 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:15:47.036 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:47.074 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:47.892 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:47.925 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:15:49.200 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidLastNameRegisterTest
+2025-12-31 16:15:53.434 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidNameRegisterTest
+2025-12-31 16:15:53.524 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:15:54.446 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:15:55.366 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @
+2025-12-31 16:15:56.697 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:15:57.993 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:15:59.279 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:16:00.852 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:16:02.566 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:03.479 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:16:14.777 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:16:14.887 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:16:14.923 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:16:15.660 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:15.693 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:16.499 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:16.532 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:17.797 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidNameRegisterTest
+2025-12-31 16:16:21.713 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidPasswordRegisterTest
+2025-12-31 16:16:21.791 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:16:23.762 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:16:24.671 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:16:25.925 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:16:27.110 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:16:28.311 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1
+2025-12-31 16:16:29.536 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1
+2025-12-31 16:16:30.802 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:31.664 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:16:43.106 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:16:43.226 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:16:43.275 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:16:43.992 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:44.033 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:44.918 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:44.955 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:46.221 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidPasswordRegisterTest
+2025-12-31 16:16:50.244 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: missMatchPasswordRegisterTest
+2025-12-31 16:16:50.377 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:16:51.242 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:16:52.122 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:16:53.392 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:16:54.654 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:16:55.911 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:16:57.181 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword2.
+2025-12-31 16:16:58.423 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:16:59.375 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:17:10.824 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:17:10.937 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:17:10.971 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:17:11.692 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:17:11.747 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:17:12.552 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:17:12.587 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:17:13.845 [main] INFO  utils.listeners.TestListener - Test Başarılı: missMatchPasswordRegisterTest
+2025-12-31 16:17:18.179 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: successfullyRegisterTest
+2025-12-31 16:17:18.351 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:17:19.533 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:17:28.682 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Test
+2025-12-31 16:17:39.882 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = test
+2025-12-31 16:17:48.228 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_MAIL
+2025-12-31 16:17:54.297 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_PASSWORD
+2025-12-31 16:18:00.560 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_PASSWORD
+2025-12-31 16:18:03.349 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:18:04.641 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:18:05.831 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:18:17.265 [main] ERROR utils.listeners.TestListener - Test Başarısız: successfullyRegisterTest
+2025-12-31 16:18:17.266 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class screens.RegisterScreen cannot be cast to class screens.MyAccountScreen (screens.RegisterScreen and screens.MyAccountScreen are in unnamed module of loader 'app')
+2025-12-31 16:18:17.577 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/successfullyRegisterTest_20251231_161817.png
+2025-12-31 16:18:21.970 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutCampaignPolicyRegisterTest
+2025-12-31 16:18:32.045 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutCampaignPolicyRegisterTest
+2025-12-31 16:18:32.045 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:18:32.350 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutCampaignPolicyRegisterTest_20251231_161832.png
+2025-12-31 16:18:36.198 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutConfirmPasswordRegisterTest
+2025-12-31 16:18:46.521 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutConfirmPasswordRegisterTest
+2025-12-31 16:18:46.521 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:18:46.770 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutConfirmPasswordRegisterTest_20251231_161846.png
+2025-12-31 16:18:50.731 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutEmailRegisterTest
+2025-12-31 16:19:00.784 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutEmailRegisterTest
+2025-12-31 16:19:00.785 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:01.087 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutEmailRegisterTest_20251231_161900.png
+2025-12-31 16:19:06.324 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutLastNameRegisterTest
+2025-12-31 16:19:16.363 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutLastNameRegisterTest
+2025-12-31 16:19:16.363 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:16.603 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutLastNameRegisterTest_20251231_161916.png
+2025-12-31 16:19:20.987 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutNameRegisterTest
+2025-12-31 16:19:31.019 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutNameRegisterTest
+2025-12-31 16:19:31.019 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:31.282 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutNameRegisterTest_20251231_161931.png
+2025-12-31 16:19:36.240 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutPasswordRegisterTest
+2025-12-31 16:19:46.274 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutPasswordRegisterTest
+2025-12-31 16:19:46.274 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:46.559 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutPasswordRegisterTest_20251231_161946.png
+2025-12-31 16:19:51.558 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:20:01.628 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:20:01.628 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:20:01.896 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutSecretAndSecurityPolicyRegisterTest_20251231_162001.png
+2025-12-31 16:20:02.246 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 16:23:35.674 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 16:23:35.682 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 16:23:42.566 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:23:43.069 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:23:44.031 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:23:45.017 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:23:46.419 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:23:47.762 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:23:49.240 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:23:50.767 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:23:52.304 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:23:53.579 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:24:05.703 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:24:05.840 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:24:05.885 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:24:06.658 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:06.700 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:07.539 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:07.587 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:08.893 [main] INFO  utils.listeners.TestListener - Test Başarılı: alreadyExistsUserTest
+2025-12-31 16:24:13.077 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidEmailRegisterTest
+2025-12-31 16:24:13.279 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:24:14.240 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:24:15.287 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:24:16.616 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = E2
+2025-12-31 16:24:17.945 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60gmail.com
+2025-12-31 16:24:19.252 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:24:20.596 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:24:21.929 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:22.795 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:24:34.107 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:24:34.229 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:24:34.270 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:24:35.032 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:35.074 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:35.879 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:35.918 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:37.189 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidEmailRegisterTest
+2025-12-31 16:24:41.121 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidLastNameRegisterTest
+2025-12-31 16:24:41.278 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:24:42.186 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:24:43.085 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:24:44.342 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = E
+2025-12-31 16:24:45.557 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:24:46.869 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:24:48.220 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:24:49.560 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:24:50.495 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:25:02.002 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:25:02.131 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:25:02.171 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:25:02.925 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:02.963 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:03.775 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:03.808 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:05.219 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidLastNameRegisterTest
+2025-12-31 16:25:09.240 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidNameRegisterTest
+2025-12-31 16:25:09.423 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:25:10.374 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:25:11.304 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @
+2025-12-31 16:25:12.591 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:25:13.822 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:25:15.037 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:25:16.303 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:25:17.611 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:18.561 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:25:29.927 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:25:30.036 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:25:30.076 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:25:30.866 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:30.902 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:31.702 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:31.744 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:33.028 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidNameRegisterTest
+2025-12-31 16:25:38.050 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidPasswordRegisterTest
+2025-12-31 16:25:38.242 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:25:39.263 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:25:40.266 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:25:42.056 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:25:43.413 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:25:44.760 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1
+2025-12-31 16:25:46.010 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1
+2025-12-31 16:25:47.339 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:25:48.242 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:25:59.784 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:25:59.901 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:25:59.935 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:26:00.829 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:00.864 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:01.665 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:01.699 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:02.960 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidPasswordRegisterTest
+2025-12-31 16:26:06.892 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: missMatchPasswordRegisterTest
+2025-12-31 16:26:07.074 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:26:08.041 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:26:08.927 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:26:10.282 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:26:11.633 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:26:12.968 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:26:14.313 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword2.
+2025-12-31 16:26:15.628 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:16.685 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:26:28.019 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:26:28.187 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:26:28.225 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:26:28.992 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:29.038 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:29.886 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:29.929 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:31.206 [main] INFO  utils.listeners.TestListener - Test Başarılı: missMatchPasswordRegisterTest
+2025-12-31 16:26:36.391 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: successfullyRegisterTest
+2025-12-31 16:26:36.590 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:26:37.615 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:26:38.527 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Test
+2025-12-31 16:26:39.886 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = test
+2025-12-31 16:26:41.243 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_MAIL
+2025-12-31 16:26:42.544 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_PASSWORD
+2025-12-31 16:26:43.912 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_PASSWORD
+2025-12-31 16:26:45.243 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:46.172 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:26:47.191 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:26:58.475 [main] ERROR utils.listeners.TestListener - Test Başarısız: successfullyRegisterTest
+2025-12-31 16:26:58.476 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class screens.RegisterScreen cannot be cast to class screens.MyAccountScreen (screens.RegisterScreen and screens.MyAccountScreen are in unnamed module of loader 'app')
+2025-12-31 16:26:58.813 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/successfullyRegisterTest_20251231_162658.png
+2025-12-31 16:27:04.166 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutCampaignPolicyRegisterTest
+2025-12-31 16:27:14.281 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutCampaignPolicyRegisterTest
+2025-12-31 16:27:14.281 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:27:14.587 [main] WARN  utils.listeners.TestListener - Hata screenshot'ı kaydedildi: screenshots/RegisterTest/withoutCampaignPolicyRegisterTest_20251231_162714.png
+2025-12-31 16:27:21.000 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutConfirmPasswordRegisterTest
+2025-12-31 16:29:01.941 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 16:29:01.946 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 16:29:10.493 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutCampaignPolicyRegisterTest
+2025-12-31 16:29:11.721 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:29:12.853 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:29:14.137 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Test
+2025-12-31 16:29:16.208 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = test
+2025-12-31 16:29:19.228 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_MAIL
+2025-12-31 16:29:21.167 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_PASSWORD
+2025-12-31 16:29:23.319 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YOUR_PASSWORD
+2025-12-31 16:29:24.862 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:29:26.006 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:29:37.516 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutCampaignPolicyRegisterTest
+2025-12-31 16:29:37.517 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class screens.RegisterScreen cannot be cast to class screens.MyAccountScreen (screens.RegisterScreen and screens.MyAccountScreen are in unnamed module of loader 'app')
+2025-12-31 16:30:07.965 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 16:30:07.980 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 16:30:21.058 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutCampaignPolicyRegisterTest
+2025-12-31 16:30:21.717 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:30:22.784 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:30:23.854 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Test
+2025-12-31 16:30:25.290 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = test
+2025-12-31 16:31:16.779 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 16:31:16.788 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 16:31:27.838 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:31:29.111 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:31:30.182 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:31:31.661 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:31:33.314 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1512
+2025-12-31 16:31:34.687 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:31:36.148 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:31:37.496 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:31:38.900 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:31:50.160 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:31:50.336 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:31:50.392 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:31:51.226 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:31:51.289 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:31:52.178 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:31:52.233 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:31:53.557 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:31:53.910 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only
+2025-12-31 16:34:36.260 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\baran\OneDrive\Desktop\Appium Examples\AppiumPOM_02\testing-suites\class-based-test.xml
+
+2025-12-31 16:34:36.267 [main] INFO  utils.listeners.TestListener - Test Suite BAŞLADI: Login and Search Tests Only
+2025-12-31 16:34:44.454 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: alreadyExistsUserTest
+2025-12-31 16:34:45.583 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:34:46.617 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:34:47.550 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:34:49.123 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:34:50.437 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = railsmail1993@gmail.com
+2025-12-31 16:34:51.722 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:34:53.053 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:34:54.484 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:34:55.505 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:35:06.981 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:35:07.183 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:35:07.240 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:35:08.104 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:08.158 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:09.035 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:09.094 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:10.409 [main] INFO  utils.listeners.TestListener - Test Başarılı: alreadyExistsUserTest
+2025-12-31 16:35:14.596 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidEmailRegisterTest
+2025-12-31 16:35:14.818 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:35:15.839 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:35:16.753 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:35:18.098 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = E2
+2025-12-31 16:35:19.464 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60gmail.com
+2025-12-31 16:35:20.822 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:35:22.698 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:35:24.182 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:25.241 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:35:36.690 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:35:36.843 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:35:36.908 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:35:37.716 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:37.766 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:38.600 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:38.656 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:39.996 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidEmailRegisterTest
+2025-12-31 16:35:45.435 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidLastNameRegisterTest
+2025-12-31 16:35:45.659 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:35:46.646 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:35:47.545 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:35:48.845 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = E
+2025-12-31 16:35:50.098 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:35:51.409 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:35:52.711 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:35:54.050 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:35:55.004 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:36:06.250 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:36:06.416 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:36:06.463 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:36:07.248 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:07.293 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:08.124 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:08.168 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:09.454 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidLastNameRegisterTest
+2025-12-31 16:36:13.501 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidNameRegisterTest
+2025-12-31 16:36:13.605 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:36:14.572 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:36:15.442 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @
+2025-12-31 16:36:16.745 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:36:18.041 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:36:19.341 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:36:20.578 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:36:21.990 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:22.937 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:36:34.136 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:36:34.291 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:36:34.344 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:36:35.112 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:35.162 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:36.006 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:36.057 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:37.344 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidNameRegisterTest
+2025-12-31 16:36:41.321 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: invalidPasswordRegisterTest
+2025-12-31 16:36:41.421 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:36:42.816 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:36:43.819 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:36:45.124 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:36:46.503 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:36:47.825 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1
+2025-12-31 16:36:49.114 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1
+2025-12-31 16:36:50.484 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:36:51.432 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:37:02.865 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:37:03.022 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:37:03.066 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:37:03.862 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:03.908 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:04.754 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:04.803 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:06.113 [main] INFO  utils.listeners.TestListener - Test Başarılı: invalidPasswordRegisterTest
+2025-12-31 16:37:10.107 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: missMatchPasswordRegisterTest
+2025-12-31 16:37:10.277 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:37:11.174 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:37:12.096 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Mehmet Ali
+2025-12-31 16:37:13.402 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:37:14.722 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:37:16.015 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword1.
+2025-12-31 16:37:17.345 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = YourPassword2.
+2025-12-31 16:37:18.720 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:19.593 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:37:30.815 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:37:30.976 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:37:31.025 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:37:31.798 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:31.851 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:32.686 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:32.728 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:34.013 [main] INFO  utils.listeners.TestListener - Test Başarılı: missMatchPasswordRegisterTest
+2025-12-31 16:37:39.216 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutConfirmPasswordRegisterTest
+2025-12-31 16:37:40.994 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:37:42.115 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:37:43.229 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:37:44.658 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1512
+2025-12-31 16:37:46.326 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:37:47.721 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:37:49.409 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 
+2025-12-31 16:37:51.026 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:37:52.161 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:38:03.439 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:38:03.897 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:38:03.943 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:38:04.745 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:04.794 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:05.717 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:05.770 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:07.100 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutConfirmPasswordRegisterTest
+2025-12-31 16:38:12.960 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutEmailRegisterTest
+2025-12-31 16:38:13.097 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:38:14.115 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:38:15.052 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:38:16.468 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1512
+2025-12-31 16:38:17.813 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 
+2025-12-31 16:38:19.534 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:38:20.828 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:38:22.649 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:23.597 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:38:34.896 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:38:35.063 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:38:35.113 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:38:35.909 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:35.959 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:36.793 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:36.840 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:38.125 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutEmailRegisterTest
+2025-12-31 16:38:44.895 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutLastNameRegisterTest
+2025-12-31 16:38:45.128 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:38:46.149 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:38:47.088 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:38:48.419 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 
+2025-12-31 16:38:49.751 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:38:51.064 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:38:52.336 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:38:53.659 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:38:54.591 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:39:05.814 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:39:05.969 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:39:06.016 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:39:06.841 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:06.889 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:07.721 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:07.761 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:09.039 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutLastNameRegisterTest
+2025-12-31 16:39:14.429 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutNameRegisterTest
+2025-12-31 16:39:14.577 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:39:15.723 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:39:16.727 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 
+2025-12-31 16:39:18.085 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = Esgi
+2025-12-31 16:39:19.452 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:39:20.803 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:39:22.083 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:39:23.371 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:24.285 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:39:35.520 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:39:35.682 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:39:35.731 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:39:36.530 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:36.588 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:37.433 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:37.476 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:38.782 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutNameRegisterTest
+2025-12-31 16:39:44.271 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutPasswordRegisterTest
+2025-12-31 16:39:44.417 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:39:45.466 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:39:46.487 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:39:47.898 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1512
+2025-12-31 16:39:49.232 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:39:50.599 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 
+2025-12-31 16:39:51.982 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:39:53.302 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:39:54.188 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:40:05.438 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:40:05.599 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:40:05.645 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:40:06.424 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:06.468 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:07.286 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:07.332 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:08.926 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutPasswordRegisterTest
+2025-12-31 16:40:14.770 [main] INFO  utils.listeners.TestListener - >>> Test Başladı: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:40:14.947 [main] INFO  screens.MainScreen - Tıklanıyor: 
+2025-12-31 16:40:15.948 [main] INFO  screens.LoginScreen - Tıklanıyor: 
+2025-12-31 16:40:16.838 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = @12
+2025-12-31 16:40:18.170 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1512
+2025-12-31 16:40:19.462 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = mehmetaliesgi60@gmail.com
+2025-12-31 16:40:20.807 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:40:22.146 [main] INFO  screens.RegisterScreen - Metin giriliyor:  = 1123456790
+2025-12-31 16:40:23.495 [main] INFO  screens.RegisterScreen - Tıklanıyor: Üye Ol
+2025-12-31 16:40:34.666 [main] INFO  screens.RegisterScreen - Elementin texti aliniyor...
+2025-12-31 16:40:34.815 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:40:34.863 [main] INFO  screens.RegisterScreen - Tıklanıyor: Tamam
+2025-12-31 16:40:35.640 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:35.680 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:36.523 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:36.567 [main] INFO  screens.RegisterScreen - Tıklanıyor: 
+2025-12-31 16:40:37.843 [main] INFO  utils.listeners.TestListener - Test Başarılı: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:40:38.266 [main] INFO  utils.listeners.TestListener - Test Suite BİTTİ: Login and Search Tests Only

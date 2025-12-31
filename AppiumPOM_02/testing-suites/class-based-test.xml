@@ -3,10 +3,17 @@
 <suite name="Specific Test Classes Suite" verbose="1">
 
     <test name="Login and Search Tests Only">
+        
+        <groups>
+            <run>
+                <exclude name="successfully" />
+            </run>
+        </groups>
+        
         <classes>
             <!-- LoginTest ve SearchTest sinifindaki testleri kos. Digerlerini kosma anlaminda bir xml dosyasi. -->
-            <class name="tests.LoginTest"/>
-            <class name="tests.SearchTest"/>
+            <class name="tests.RegisterTest"/>
+<!--            <class name="tests.SearchTest"/>-->
         </classes>
     </test>
 

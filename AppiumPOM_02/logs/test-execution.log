@@ -1,0 +1,158 @@
+2025-12-31 16:34:36.303 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:34:36.314 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:34:44.418 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 5421ms
+2025-12-31 16:34:44.449 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:34:44.457 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:34:44.458 [main] INFO  tests.RegisterTest - TEST BAŞLADI: alreadyExistsUserTest
+2025-12-31 16:34:44.458 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:34:44.459 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:35:10.416 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:35:10.418 [main] INFO  tests.BaseTest - TEST BAŞARILI: alreadyExistsUserTest
+2025-12-31 16:35:10.418 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:35:10.418 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:35:10.787 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:35:10.803 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:35:10.804 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:35:14.584 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 3422ms
+2025-12-31 16:35:14.593 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:35:14.597 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:35:14.597 [main] INFO  tests.RegisterTest - TEST BAŞLADI: invalidEmailRegisterTest
+2025-12-31 16:35:14.598 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:35:14.598 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:35:39.998 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:35:39.999 [main] INFO  tests.BaseTest - TEST BAŞARILI: invalidEmailRegisterTest
+2025-12-31 16:35:39.999 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:35:39.999 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:35:40.318 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:35:40.320 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:35:40.321 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:35:45.424 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 4787ms
+2025-12-31 16:35:45.435 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:35:45.436 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:35:45.436 [main] INFO  tests.RegisterTest - TEST BAŞLADI: invalidLastNameRegisterTest
+2025-12-31 16:35:45.436 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:35:45.436 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:36:09.456 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:36:09.458 [main] INFO  tests.BaseTest - TEST BAŞARILI: invalidLastNameRegisterTest
+2025-12-31 16:36:09.458 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:36:09.458 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:36:09.791 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:36:09.794 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:36:09.794 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:36:13.493 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 3389ms
+2025-12-31 16:36:13.500 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:36:13.502 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:36:13.502 [main] INFO  tests.RegisterTest - TEST BAŞLADI: invalidNameRegisterTest
+2025-12-31 16:36:13.503 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:36:13.503 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:36:37.347 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:36:37.347 [main] INFO  tests.BaseTest - TEST BAŞARILI: invalidNameRegisterTest
+2025-12-31 16:36:37.347 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:36:37.347 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:36:37.656 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:36:37.658 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:36:37.659 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:36:41.312 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 3329ms
+2025-12-31 16:36:41.320 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:36:41.322 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:36:41.322 [main] INFO  tests.RegisterTest - TEST BAŞLADI: invalidPasswordRegisterTest
+2025-12-31 16:36:41.322 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:36:41.322 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:37:06.114 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:37:06.115 [main] INFO  tests.BaseTest - TEST BAŞARILI: invalidPasswordRegisterTest
+2025-12-31 16:37:06.115 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:37:06.115 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:37:06.421 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:37:06.424 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:37:06.425 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:37:10.098 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 3337ms
+2025-12-31 16:37:10.106 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:37:10.108 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:37:10.108 [main] INFO  tests.RegisterTest - TEST BAŞLADI: missMatchPasswordRegisterTest
+2025-12-31 16:37:10.109 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:37:10.109 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:37:34.014 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:37:34.014 [main] INFO  tests.BaseTest - TEST BAŞARILI: missMatchPasswordRegisterTest
+2025-12-31 16:37:34.014 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:37:34.014 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:37:34.326 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:37:34.329 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:37:34.329 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:37:39.205 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 4550ms
+2025-12-31 16:37:39.215 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:37:39.217 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:37:39.217 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutConfirmPasswordRegisterTest
+2025-12-31 16:37:39.217 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:37:39.217 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:37:39.298 [main] DEBUG tests.BaseTest - Screenshot alınıyor.....
+2025-12-31 16:38:03.540 [main] DEBUG tests.BaseTest - Screenshot alınıyor.....
+2025-12-31 16:38:07.102 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:38:07.102 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutConfirmPasswordRegisterTest
+2025-12-31 16:38:07.103 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:38:07.103 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:38:07.615 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:38:07.616 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:38:07.617 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:38:12.951 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 4876ms
+2025-12-31 16:38:12.959 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:38:12.961 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:38:12.961 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutEmailRegisterTest
+2025-12-31 16:38:12.961 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:38:12.961 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:38:38.127 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:38:38.127 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutEmailRegisterTest
+2025-12-31 16:38:38.128 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:38:38.128 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:38:38.533 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:38:38.535 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:38:38.536 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:38:44.887 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 5466ms
+2025-12-31 16:38:44.894 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:38:44.896 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:38:44.896 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutLastNameRegisterTest
+2025-12-31 16:38:44.897 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:38:44.897 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:39:09.041 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:39:09.042 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutLastNameRegisterTest
+2025-12-31 16:39:09.042 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:39:09.042 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:39:09.459 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:39:09.462 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:39:09.462 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:39:14.420 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 4081ms
+2025-12-31 16:39:14.428 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:39:14.430 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:39:14.430 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutNameRegisterTest
+2025-12-31 16:39:14.430 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:39:14.430 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:39:38.783 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:39:38.783 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutNameRegisterTest
+2025-12-31 16:39:38.783 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:39:38.783 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:39:39.212 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:39:39.214 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:39:39.214 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:39:44.264 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 4183ms
+2025-12-31 16:39:44.271 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:39:44.272 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:39:44.272 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutPasswordRegisterTest
+2025-12-31 16:39:44.273 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:39:44.273 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:40:08.927 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:40:08.928 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutPasswordRegisterTest
+2025-12-31 16:40:08.928 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:40:08.928 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:40:09.390 [main] INFO  tests.BaseTest - Cleanup tamamlandı
+2025-12-31 16:40:09.393 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:40:09.394 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:40:14.761 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 4454ms
+2025-12-31 16:40:14.769 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:40:14.770 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:40:14.770 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:40:14.770 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:40:14.770 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:40:37.845 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:40:37.845 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:40:37.845 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:40:37.845 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:40:38.261 [main] INFO  tests.BaseTest - Cleanup tamamlandı

@@ -1,0 +1,13 @@
+2025-12-31 16:31:16.831 [main] INFO  tests.BaseTest - Test ortamı hazırlanıyor...
+2025-12-31 16:31:16.844 [main] INFO  tests.BaseTest - Appium Server'a bağlanılıyor: http://127.0.0.1:4723/wd/hub
+2025-12-31 16:31:27.804 [main] INFO  tests.BaseTest - Driver başlatıldı - Süre: 7724ms
+2025-12-31 16:31:27.833 [main] INFO  tests.BaseTest - Test ortamı hazır: TEST
+2025-12-31 16:31:27.840 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:31:27.840 [main] INFO  tests.RegisterTest - TEST BAŞLADI: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:31:27.847 [main] INFO  tests.RegisterTest - Thread ID: 3
+2025-12-31 16:31:27.848 [main] INFO  tests.RegisterTest - ========================================
+2025-12-31 16:31:53.565 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:31:53.565 [main] INFO  tests.BaseTest - TEST BAŞARILI: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:31:53.565 [main] INFO  tests.BaseTest - ========================================
+2025-12-31 16:31:53.565 [main] INFO  tests.BaseTest - Driver kapatılıyor
+2025-12-31 16:31:53.902 [main] INFO  tests.BaseTest - Cleanup tamamlandı

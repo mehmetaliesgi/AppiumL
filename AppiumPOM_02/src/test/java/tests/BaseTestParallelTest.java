@@ -5,10 +5,12 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import utils.helpers.ConfigReader;
+import utils.helpers.LogHelper;
 import utils.helpers.ScreenshotHelper;
 import utils.listeners.TestListener;
 
@@ -16,6 +18,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.lang.reflect.Method;
 
 @Listeners(TestListener.class)
 public class BaseTestParallelTest {
@@ -26,6 +29,8 @@ public class BaseTestParallelTest {
     private static Map<Long, Integer> threadIdMap = new HashMap<>();
     private static AtomicInteger deviceCounter = new AtomicInteger(0);
     private static final int DEVICE_COUNT = 2;
+
+    protected static final Logger logger = LogHelper.getLogger(BaseTest.class);
 
     public AppiumDriver getDriver() {
         return driver.get();

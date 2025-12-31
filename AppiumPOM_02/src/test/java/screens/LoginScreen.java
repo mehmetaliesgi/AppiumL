@@ -19,7 +19,7 @@ public class LoginScreen extends BaseScreen{
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Giriş Yap\")")
     public WebElement btnLogin;
 
-    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Ücretsiz Üye Ol\")")
+    @AndroidFindBy(id = "com.mobisoft.kitapyurdu:id/btnRegister")
     public WebElement btnRegister;
 
     @AndroidFindBy(accessibility = "Tamam")

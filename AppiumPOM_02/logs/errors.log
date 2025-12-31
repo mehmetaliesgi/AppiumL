@@ -1,0 +1,60 @@
+2025-12-31 15:27:01.863 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:27:01.866 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:27:01.872 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:27:01.873 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:29:32.302 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:29:32.302 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:29:32.306 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:29:32.307 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:34:15.048 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:34:15.051 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:34:15.056 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:34:15.056 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:38:18.328 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:38:18.362 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:38:18.394 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:38:18.400 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:39:36.351 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:39:36.352 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:39:36.355 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:39:36.355 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class tests.RegisterTest cannot be cast to class tests.BaseTestParallelTest (tests.RegisterTest and tests.BaseTestParallelTest are in unnamed module of loader 'app')
+2025-12-31 15:40:59.525 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:40:59.526 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:41:16.112 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidEmailRegisterTest
+2025-12-31 15:41:16.113 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:41:37.584 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidLastNameRegisterTest
+2025-12-31 15:41:37.584 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:41:54.364 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidNameRegisterTest
+2025-12-31 15:41:54.365 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:42:11.456 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidPasswordRegisterTest
+2025-12-31 15:42:11.456 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:53:46.414 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 15:53:46.422 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.androidUIAutomator: new UiSelector().text("Hesap Ayarları")})
+2025-12-31 15:54:36.685 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidEmailRegisterTest
+2025-12-31 15:54:36.687 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 15:54:52.360 [main] ERROR utils.listeners.TestListener - Test Başarısız: invalidLastNameRegisterTest
+2025-12-31 15:54:52.360 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:05:23.633 [main] ERROR utils.listeners.TestListener - Test Başarısız: alreadyExistsUserTest
+2025-12-31 16:05:23.645 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.androidUIAutomator: new UiSelector().text("Hesap Ayarları")})
+2025-12-31 16:18:17.265 [main] ERROR utils.listeners.TestListener - Test Başarısız: successfullyRegisterTest
+2025-12-31 16:18:17.266 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class screens.RegisterScreen cannot be cast to class screens.MyAccountScreen (screens.RegisterScreen and screens.MyAccountScreen are in unnamed module of loader 'app')
+2025-12-31 16:18:32.045 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutCampaignPolicyRegisterTest
+2025-12-31 16:18:32.045 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:18:46.521 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutConfirmPasswordRegisterTest
+2025-12-31 16:18:46.521 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:00.784 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutEmailRegisterTest
+2025-12-31 16:19:00.785 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:16.363 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutLastNameRegisterTest
+2025-12-31 16:19:16.363 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:31.019 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutNameRegisterTest
+2025-12-31 16:19:31.019 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:19:46.274 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutPasswordRegisterTest
+2025-12-31 16:19:46.274 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:20:01.628 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutSecretAndSecurityPolicyRegisterTest
+2025-12-31 16:20:01.628 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:26:58.475 [main] ERROR utils.listeners.TestListener - Test Başarısız: successfullyRegisterTest
+2025-12-31 16:26:58.476 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class screens.RegisterScreen cannot be cast to class screens.MyAccountScreen (screens.RegisterScreen and screens.MyAccountScreen are in unnamed module of loader 'app')
+2025-12-31 16:27:14.281 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutCampaignPolicyRegisterTest
+2025-12-31 16:27:14.281 [main] ERROR utils.listeners.TestListener - Hata Mesajı: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Hesabım})
+2025-12-31 16:29:37.516 [main] ERROR utils.listeners.TestListener - Test Başarısız: withoutCampaignPolicyRegisterTest
+2025-12-31 16:29:37.517 [main] ERROR utils.listeners.TestListener - Hata Mesajı: class screens.RegisterScreen cannot be cast to class screens.MyAccountScreen (screens.RegisterScreen and screens.MyAccountScreen are in unnamed module of loader 'app')

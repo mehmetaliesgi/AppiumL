@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <!-- Properties - Değişkenler -->
+    <Properties>
+        <Property name="basePath">logs</Property>
+        <Property name="filename">test-automation</Property>
+
+        <!-- Log Pattern -->
+        <Property name="logPattern">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+        </Property>
+
+        <!-- Console Pattern (renkli) -->
+        <Property name="consolePattern">
+            %d{HH:mm:ss.SSS} [%t] %highlight{%-5level}{FATAL=red, ERROR=red, WARN=yellow, INFO=green, DEBUG=blue, TRACE=white} %style{%logger{36}}{cyan} - %msg%n
+        </Property>
+    </Properties>
+
+    <!-- Appenders - Logların nereye yazılacağı -->
+    <Appenders>
+
+        <!-- Console Appender - Konsola yaz -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${consolePattern}"/>
+        </Console>
+
+        <!-- File Appender - Tüm loglar -->
+        <RollingFile name="FileLogger"
+                     fileName="${basePath}/${filename}.log"
+                     filePattern="${basePath}/${filename}-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${logPattern}"/>
+            <Policies>
+                <!-- Her gün yeni dosya -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- 10MB'dan büyük olursa yeni dosya -->
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <!-- Max 30 dosya sakla -->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+
+        <!-- Error File Appender - Sadece hatalar -->
+        <RollingFile name="ErrorLogger"
+                     fileName="${basePath}/errors.log"
+                     filePattern="${basePath}/errors-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${logPattern}"/>
+            <Filters>
+                <!-- Sadece ERROR ve FATAL -->
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+
+        <!-- Test Specific Logger - Her test için ayrı dosya -->
+        <RollingFile name="TestLogger"
+                     fileName="${basePath}/test-execution.log"
+                     filePattern="${basePath}/test-execution-%d{yyyy-MM-dd-HH-mm-ss}.log">
+            <PatternLayout pattern="${logPattern}"/>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+
+    <!-- Loggers - Hangi logger hangi appender'ı kullanacak -->
+    <Loggers>
+
+        <!-- Root Logger - Tüm loglar buraya gelir -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+            <AppenderRef ref="ErrorLogger"/>
+        </Root>
+
+        <!-- Package bazlı logging -->
+        <Logger name="tests" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TestLogger"/>
+        </Logger>
+
+        <Logger name="pages" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Logger>
+
+        <Logger name="helpers" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Logger>
+
+        <!-- Appium loglarını azalt (çok verbose) -->
+        <Logger name="io.appium" level="WARN"/>
+        <Logger name="org.openqa.selenium" level="WARN"/>
+
+    </Loggers>
+
+</Configuration>

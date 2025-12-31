@@ -1,21 +1,26 @@
 package utils.listeners;
 
 import io.appium.java_client.AppiumDriver;
+import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import tests.BaseTest;
 import tests.BaseTestParallelTest;
+import utils.helpers.LogHelper;
 import utils.helpers.ScreenshotHelper;
 
 public class TestListener implements ITestListener {
+    private static final Logger logger = LogHelper.getLogger(TestListener.class);
+
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test BAŞARISIZ: " + result.getName());
+        logger.error("Test Başarısız: " + result.getMethod().getMethodName());
+        logger.error("Hata Mesajı: " + result.getThrowable().getMessage());
 
         // Driver'ı test sınıfından al
         Object testClass = result.getInstance();
-        AppiumDriver driver = ((BaseTestParallelTest) testClass).getDriver();
+        AppiumDriver driver = ((BaseTest) testClass).getDriver();
 
         if (driver != null) {
             ScreenshotHelper screenshotHelper = new ScreenshotHelper(driver);
@@ -30,27 +35,32 @@ public class TestListener implements ITestListener {
                     methodName
             );
 
-            System.out.println("Hata screenshot'ı kaydedildi: " + screenshotPath);
+            logger.warn("Hata screenshot'ı kaydedildi: " + screenshotPath);
         }
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test BAŞARILI: " + result.getName());
+        logger.info("Test Başarılı: " + result.getMethod().getMethodName());
     }
 
     @Override
     public void onTestStart(ITestResult result) {
-        System.out.println("Test BAŞLADI: " + result.getName());
+        logger.info(">>> Test Başladı: " + result.getMethod().getMethodName());
+    }
+
+    @Override
+    public void onTestSkipped(ITestResult result) {
+        logger.warn("Test Atlandı: " + result.getMethod().getMethodName());
     }
 
     @Override
     public void onStart(ITestContext context) {
-        System.out.println("Test Suite BAŞLADI: " + context.getName());
+        logger.info("Test Suite BAŞLADI: " + context.getName());
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        System.out.println("Test Suite BİTTİ: " + context.getName());
+        logger.info("Test Suite BİTTİ: " + context.getName());
     }
 }
